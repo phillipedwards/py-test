@@ -1,0 +1,7 @@
+config:
+  alb:environment: prod
+  alb:subnet-ids:
+    - subnet-123
+  alb:subnet-ids-json: ['subnet-123']
+  aws:region: us-east-1
+  
